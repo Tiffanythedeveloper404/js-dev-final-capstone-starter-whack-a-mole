@@ -212,7 +212,12 @@ function startTimer() {
 *
 */
 function whack(event) {  
+  const mole = event.target;
+  mole.classList.add('hit');
   updateScore();
+  setTimeout(() => {
+    mole.classList.remove('hit');
+  }, 150);  
   return points;
 }
 
@@ -223,7 +228,7 @@ function whack(event) {
 */
 function setEventListeners(){
  moles.forEach(mole => {
-    mole.addEventListener('click', whack);
+    mole.addEventListener('click', whack);     
   });
   return moles;
 }

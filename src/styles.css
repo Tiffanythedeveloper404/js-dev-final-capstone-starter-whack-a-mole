@@ -6,8 +6,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  z-index:0;
-  overflow: hidden;
+  z-index:0;  
 }
 
 h1 {
@@ -26,8 +25,9 @@ h2 {
 }
 
 #start {
-    text-align: center;
-    font-size: 30px;
+  display: block;
+  margin: 0 auto;   
+  font-size: 30px;
 }
 
 #timer{
@@ -35,8 +35,8 @@ h2 {
 }
 
 .grid {
-  width: 600px;
-  height: 400px;
+  width: 600px; 
+  height: 200px;   
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -65,8 +65,8 @@ h2 {
 
 .mole {
   /*background:url('./assets/mole.png') bottom center no-repeat;*/
-  background:url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mole.png?raw=true') bottom center no-repeat;
-  background-size: 40%;
+  background:url('./zombie.png') center center no-repeat;
+  background-size: contain;
   position: absolute;
   top: 100%;
   width: 100%;
@@ -74,6 +74,12 @@ h2 {
   /*transition: transform 0.5s;*/
   transition: all 1s;
   pointer-events:auto;
+}
+
+.mole.hit {
+  filter:brightness(200%) saturate(200%);
+  transform: scale(0.9);
+  transition: filter 0.1s, transform 0.1s;
 }
 
 .hole.show .mole {
