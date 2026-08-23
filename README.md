@@ -164,6 +164,10 @@ This project involved building a fully functional browser game using HTML, CSS, 
 
 
 
+https://github.com/Tiffanythedeveloper404/js-dev-final-capstone-starter-whack-a-mole.git
+
+https://tiffanythedeveloper404.github.io/js-dev-final-capstone-starter-whack-a-mole/
+
 
 
 
