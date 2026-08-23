@@ -4,6 +4,17 @@
 
 For my capstone project, I chose to develop Whack‑a‑Zombie, a creative twist on the classic Whack‑a‑Mole game. Instead of moles, zombies pop out of nine holes, and the player uses a custom magic hammer cursor to whack them before the timer runs out. The game includes a spooky horror theme, a scary Butcherman font, and custom styling to enhance the experience.
 
+<img width="1157" height="881" alt="image" src="https://github.com/user-attachments/assets/e4d162f9-d4b0-44eb-b527-97ee778fc7b1" />
+
+
+
+
+
+
+
+
+
+
 
 **Plan: Functions, Features, Algorithms, and Coding Choices**
 
@@ -37,6 +48,7 @@ Zombie graphics replacing moles
 
 
 **Algorithms & Coding Choices**
+
 Randomization using Math.random() to select holes
 
 Timing logic using setInterval() for countdown and zombie pop‑ups
@@ -115,7 +127,57 @@ Troubleshooting grid overflow
 
 
 **100–150 Word Summary of Project Process**
+
 This project involved building a fully functional browser game using HTML, CSS, and JavaScript. I started by creating the grid layout and basic game logic, including random zombie appearance, scoring, and a countdown timer. After the core functionality worked, I added creative elements such as a zombie theme, scary Butcherman font, and a custom magic hammer cursor. Debugging included fixing layout overflow, correcting image paths, and resolving CSS loading issues. I deployed the game to GitHub Pages and documented the entire process with commit history and Replit screenshots. This project strengthened my understanding of DOM manipulation, event handling, and responsive styling.
 
 **GitHub Commit History & Replit Screenshots**
+
+
+<img width="992" height="607" alt="image" src="https://github.com/user-attachments/assets/18151bc1-b285-4f32-abaa-33215ab0da7b" />
+
+
+
+
+<img width="802" height="482" alt="image" src="https://github.com/user-attachments/assets/89cefb52-0e18-4845-b8e3-2270922b4bf7" />
+
+
+
+<img width="1267" height="592" alt="image" src="https://github.com/user-attachments/assets/6df00916-d95a-40d0-a220-dc96f66a06d3" />
+
+
+
+
+
+<img width="797" height="483" alt="image" src="https://github.com/user-attachments/assets/6b26f568-4bf8-448c-90ae-8950732471d9" />
+
+
+
+
+
+<img width="797" height="477" alt="image" src="https://github.com/user-attachments/assets/48a9aa7c-9a9a-445f-b21d-2346da411f4b" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
