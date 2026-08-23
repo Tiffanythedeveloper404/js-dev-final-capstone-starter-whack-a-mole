@@ -212,12 +212,16 @@ function startTimer() {
 *
 */
 function whack(event) {  
-  const mole = event.target;
-  mole.classList.add('hit');
-  updateScore();
+ if (event && event.target) {
+    const mole = event.target;
+    mole.classList.add('hit');  
+  
   setTimeout(() => {
     mole.classList.remove('hit');
-  }, 150);  
+  }, 150);
+}
+
+  updateScore();
   return points;
 }
 
