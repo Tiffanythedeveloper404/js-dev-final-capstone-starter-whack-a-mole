@@ -1,10 +1,12 @@
-# Whack-a-Mole!
+# Whack-a-Zombie!
 
-The Game I Chose to Develop
+**The Game I Chose to Develop**
+
 For my capstone project, I chose to develop Whack‑a‑Zombie, a creative twist on the classic Whack‑a‑Mole game. Instead of moles, zombies pop out of nine holes, and the player uses a custom magic hammer cursor to whack them before the timer runs out. The game includes a spooky horror theme, a scary Butcherman font, and custom styling to enhance the experience.
 
 
-Plan: Functions, Features, Algorithms, and Coding Choices
+**Plan: Functions, Features, Algorithms, and Coding Choices**
+
 Core Functions
 startGame() – initializes score, timer, and begins zombie pop‑ups
 
@@ -17,7 +19,8 @@ popUpZombie() – shows zombies at random intervals
 hitZombie() – increases score when a zombie is clicked
 
 
-Key Features
+**Key Features**
+
 9‑hole grid layout
 
 Random zombie appearance
@@ -33,7 +36,7 @@ Scary font and custom cursor
 Zombie graphics replacing moles
 
 
-Algorithms & Coding Choices
+**Algorithms & Coding Choices**
 Randomization using Math.random() to select holes
 
 Timing logic using setInterval() for countdown and zombie pop‑ups
@@ -47,7 +50,8 @@ Custom assets (zombie PNG + hammer PNG) for theme enhancement
 Class toggling for animations and hit effects
 
 
-Implementation Plan
+**Implementation Plan**
+
 Build HTML structure for title, score, timer, and grid.
 
 Style the grid using CSS Grid and create hole/mole elements.
@@ -71,7 +75,8 @@ Deploy to GitHub Pages.
 Complete README and gather screenshots.
 
 
-Reflection on Coding Trade‑Offs
+**Reflection on Coding Trade‑Offs**
+
 I reduced the size of the scary font to prevent layout overflow.
 
 I resized zombie images to improve loading speed and maintain grid alignment.
@@ -81,7 +86,8 @@ I kept animations simple to avoid performance issues.
 I chose a lightweight design instead of adding sound effects to keep the project focused on core functionality.
 
 
-Justification of Choices, Challenges, and Debugging Moments
+**Justification of Choices, Challenges, and Debugging Moments**
+
 Zombie Theme: I chose zombies to make the game more creative and visually engaging.
 
 Scary Font: Butcherman added a horror vibe but required resizing to prevent layout issues.
@@ -95,7 +101,8 @@ Broken CSS: A duplicate <head> tag prevented CSS from loading; removing it fixed
 File Paths: Some images didn’t load due to incorrect paths; correcting them resolved the problem.
 
 
-AI Tools Used (with Justification)
+**AI Tools Used (with Justification)**
+
 I used Windsurf and CodeGPT to assist with:
 
 Debugging CSS layout issues
@@ -107,9 +114,8 @@ Clarifying JavaScript logic
 Troubleshooting grid overflow
 
 
-100–150 Word Summary of Project Process
+**100–150 Word Summary of Project Process**
 This project involved building a fully functional browser game using HTML, CSS, and JavaScript. I started by creating the grid layout and basic game logic, including random zombie appearance, scoring, and a countdown timer. After the core functionality worked, I added creative elements such as a zombie theme, scary Butcherman font, and a custom magic hammer cursor. Debugging included fixing layout overflow, correcting image paths, and resolving CSS loading issues. I deployed the game to GitHub Pages and documented the entire process with commit history and Replit screenshots. This project strengthened my understanding of DOM manipulation, event handling, and responsive styling.
 
-GitHub Commit History & Replit Screenshots
-(Insert your screenshots here)
+**GitHub Commit History & Replit Screenshots**
 
